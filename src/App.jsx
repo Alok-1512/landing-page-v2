@@ -1,11 +1,20 @@
+// import { useState } from 'react'
+
+import Navbar from './Components/Navbar';
+import LandingPage from './Pages/LandingPage';
+import JobPostingPage from './Pages/JobPostingPage';
+
+
+
 function App() {
   return (
     <>
-      <div className=''>
-        <h1 className='text-3xl font-bold underline'>Hello Alok</h1>
-      </div>
+      <Navbar />  
+      <LandingPage />  
+      <JobPostingPage />  
     </>
   );
 }
+
 
 export default App;
