@@ -123,6 +123,18 @@ contact-details {
     padding-right: 25px;
 }
 
+.left-text-box h2 {
+    color: #4f59b7;
+}
+
+.contact-details h2 {
+    color: #4f59b7;
+}
+
+.heading-clg {
+    color: #4f59b7;
+}
+
 @media (max-width: 768px) {
     .hero-container {
         flex-direction: column-reverse;
