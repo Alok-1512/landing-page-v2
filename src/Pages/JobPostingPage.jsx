@@ -8,7 +8,10 @@ const JobPostingPage = () => {
         <div className='left-text-box space-y-5 w-[33%]'>
           <h2>Find the Best Suitable Career Opportunity</h2>
           <div className='download-cta flex w-[80%]'>
-            <span className='border-r-4 w-[25%]'> Download The App </span>
+            <span className='border-r-4 w-[35%] md:w-[25%]'>
+              {' '}
+              Download The App{' '}
+            </span>
             <div className='flex items-center justify-evenly w-[30%]'>
               <img src={AppleStore} alt='' className='h-8' />
               <img src={PlayStore} alt='' className='h-8' />
@@ -31,7 +34,10 @@ const JobPostingPage = () => {
         <div className='left-text-box space-y-5 w-[33%]'>
           <h2>Find the Best Suitable Career Opportunity</h2>
           <div className='download-cta flex w-[80%]'>
-            <span className='border-r-4 w-[25%]'> Download The App </span>
+            <span className='border-r-4 w-[35%] md:w-[25%]'>
+              {' '}
+              Download The App{' '}
+            </span>
             <div className='flex items-center justify-evenly w-[30%]'>
               <img src={AppleStore} alt='' className='h-8' />
               <img src={PlayStore} alt='' className='h-8' />

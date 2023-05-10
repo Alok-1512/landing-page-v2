@@ -9,7 +9,7 @@ const College = () => {
           Get In Touch To Place Students <br />
           As Interns or Freshers
         </h3>
-        <div className='feature-row flex mx-auto w-[50%] gap-[50px] items-center justify-center'>
+        <div className='feature-row flex mx-auto w-[100%] md:w-[50%] gap-[25px] md:gap-[50px] items-center justify-center'>
           <div className='feature-1 flex feature-box'>
             <img src='' alt='' />
             <span>Industry Connects</span>

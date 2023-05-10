@@ -13,7 +13,7 @@ const About = () => {
         to define their growth path.
       </p>
 
-      <div className='slogan-container flex justify-evenly items-center gap-[20px]'>
+      <div className='slogan-container flex flex-col md:flex-row justify-evenly items-center gap-[20px]'>
         <div className='slogan-box'>
           <h5>Vision</h5>
           <p>Our vision is to become Global Leader in the recruitment space.</p>

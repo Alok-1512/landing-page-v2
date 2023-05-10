@@ -118,3 +118,136 @@ contact-details {
 .contact-box ul li {
     list-style: disc;
 }
+
+
+
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        height: 100%;
+        gap: 1rem;
+        margin-bottom: 10vh;
+    }
+
+    .download-cta {
+        margin-top: 2rem;
+    }
+
+    .find-cta {
+
+        height: 100%;
+        flex-direction: column;
+        margin: 10vh 0;
+        padding: 5vh 0;
+    }
+
+    .left-text-box {
+
+        width: 90%;
+        margin-bottom: 3rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .right-btn-box.first button {
+        background-color: #fff;
+        padding: 0.5rem 0.75rem;
+        border-radius: 5px;
+    }
+
+    .hero-title {
+        font-size: 1rem;
+    }
+
+    .hero-subtitle {
+        font-size: 2.75rem;
+        line-height: 50px;
+    }
+
+    .right-btn-box.first {
+        display: flex;
+        width: 100%;
+        /* padding-left: 1rem; */
+        flex-wrap: wrap;
+        /* margin-left: 20px; */
+        gap: 15px;
+    }
+
+    .heading-clg {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .heading-clg {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+
+    .feature-row {
+        flex-direction: column;
+    }
+
+    .clg-description {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    .main-container a {
+        margin-top: 1.5rem;
+    }
+
+    .contact-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .inner-container {
+        flex-direction: column;
+    }
+
+    .about-us-box>p {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    .slogan-box p {
+        font-size: 16px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .menu-content {
+        width: 50%;
+    }
+
+    .expect-section {
+        flex-direction: column-reverse;
+    }
+
+    .about-us-box {
+        height: 100%;
+    }
+
+    .slogan-container {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}
