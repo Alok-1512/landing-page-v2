@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
     <>
       <div className='flex items-center hero-container h-[80vh] justify-evenly'>
-        <div className='font-bold '>
+        <div className='font-bold mx-16'>
           <div className='hero-title md:text-4xl md:pb-10'>
             Welcome To GetHire!{' '}
           </div>

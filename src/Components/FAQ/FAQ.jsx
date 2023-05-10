@@ -4,7 +4,9 @@ import FAQs from './FAQs';
 const FAQ = () => {
   return (
     <div className='FAQ-container mb-[10vh]'>
-      <h2 className='faq-title text-center my-[10vh]'>FAQ&apos;s</h2>
+      <h2 className='faq-title text-center mt-[10vh] mb-[5vh] md:my-[10vh]'>
+        FAQ&apos;s
+      </h2>
       <div className='faq inner-container flex justify-evenly '>
         <div className='faq contact-container space-y-5'>
           <h5>Learn more about us:</h5>
