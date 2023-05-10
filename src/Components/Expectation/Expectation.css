@@ -1,0 +1,14 @@
+.feature-col h3 {
+    color: #414bb2;
+    FONT-WEIGHT: 500;
+    font-size: 30px;
+}
+
+.redirect-btn-col a {
+    padding: 0.75rem 3.5rem;
+    background-color: #ccc;
+    width: 75%;
+    TEXT-ALIGN: CENTER;
+    border-radius: 8px;
+    margin: 1rem 0;
+}

@@ -1,0 +1,21 @@
+.faq .contact-container h5 {
+    color: #414bb2;
+    font-weight: 500;
+}
+
+.support-cta-btn {
+    background-color: #414bb2;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+
+.faq-title {
+    font-size: 38px;
+    color: #414bb2;
+}
+
+.read-more {
+    font-size: 18px;
+    padding: 0 1.25rem;
+}
