@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GetHire, MenuImg } from '../assets';
+import { GetHire, MenuImg } from '../../assets';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

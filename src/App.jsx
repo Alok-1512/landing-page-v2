@@ -1,28 +1,18 @@
-// import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Navbar from './Components/Navbar';
-import College from './Components/College/College';
 import LandingPage from './Pages/LandingPage';
-import JobPostingPage from './Pages/JobPostingPage';
-import FAQ from './Components/FAQ/FAQ';
-import Expectation from './Components/Expectation/Expectation';
-import Footer from './Components/Footer/Footer';
-import About from './Components/About Us/About';
-import ContactForm from './Components/ContactForm/ContactForm';
+import OurExpertise from './Pages/OurExpertise';
+import ContactPage from './Pages/ContactPage';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <LandingPage />
-      <JobPostingPage />
-      <College />
-      <FAQ />
-      <Expectation />
-      <About />
-      <ContactForm />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/expertise' element={<OurExpertise />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

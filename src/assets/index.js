@@ -6,6 +6,8 @@ import Courses from './Courses.svg';
 import Community from './Community.svg';
 import Event from './Event.svg';
 import MenuImg from './Menu.svg';
+import AlokProfile from './AlokProfile.jpg';
+import linkedin from './linkedin.svg';
 
 export {
     GetHire,
@@ -16,5 +18,7 @@ export {
     Community,
     Event,
     MenuImg,
+    AlokProfile,
+    linkedin
 
 }
