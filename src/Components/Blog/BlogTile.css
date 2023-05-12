@@ -15,4 +15,23 @@
 .blog-content {
     margin-top: 2rem;
     margin-bottom: 2rem;
+
+}
+
+@media (max-width: 768px) {
+    .blog-content {
+        font-size: 14px;
+    }
+
+    .blog-heading {
+        margin-bottom: 0;
+    }
+
+    .blog-title h3 {
+        font-size: 15px;
+    }
+
+    .blog-title p {
+        font-size: 14px;
+    }
 }

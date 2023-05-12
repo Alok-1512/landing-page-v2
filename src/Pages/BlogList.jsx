@@ -1,31 +1,31 @@
-// import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import '../Components/Blog/BlogTile.css';
+import BlogTile from '../Components/Blog/BlogTile';
+import Navbar from '../Components/Navbar/Navbar';
+import Footer from '../Components/Footer/Footer';
+import blogData from '../Constants/blogData';
 
-// import BlogTile from '../Components/Blog/BlogTile';
-// import Navbar from '../Components/Navbar/Navbar';
-// import Footer from '../Components/Footer/Footer';
-// import blogData from '../Constants/blogData';
+const BlogList = () => {
+  const navigate = useNavigate();
 
-// const BlogList = () => {
-//   const history = useHistory();
+  const handleBlogClick = (blogId) => {
+    navigate(`/blog/${blogId}`);
+  };
 
-//   const handleBlogClick = (blogId) => {
-//     history.push(`/blog/${blogId}`);
-//   };
+  return (
+    <>
+      <Navbar />
+      {blogData.map((blog) => (
+        <BlogTile
+          key={blog.id}
+          blog={blog}
+          onClick={() => handleBlogClick(blog.id)}
+        />
+      ))}
 
-//   return (
-//     <>
-//       <Navbar />
-//       {blogData.map((blog) => (
-//         <BlogTile
-//           key={blog.id}
-//           blog={blog}
-//           onClick={() => handleBlogClick(blog.id)}
-//         />
-//       ))}
+      <Footer />
+    </>
+  );
+};
 
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default BlogList;
+export default BlogList;

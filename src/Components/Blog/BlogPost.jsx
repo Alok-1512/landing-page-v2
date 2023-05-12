@@ -1,35 +1,39 @@
-// import React from 'react';
-// import './BlogTile.css';
-// import { banner } from '../../assets';
-// import Navbar from '../Navbar/Navbar';
-// import Footer from '../Footer/Footer';
-// import { useParams } from 'react-router-dom';
-// import blogData from '../../Constants/blogData';
+import React from 'react';
+import './BlogTile.css';
+import { banner } from '../../assets';
 
-// const BlogPost = () => {
-//   const { blogId } = useParams();
-//   const blog = blogData.find((blog) => blog.id === parseInt(blogId));
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import { useParams } from 'react-router-dom';
+import blogData from '../../Constants/blogData';
 
-//   if (!blog) {
-//     return <div>Blog post not found!</div>;
-//   }
-//   return (
-//     <>
-//       <Navbar />
-//       <div className='blog-post'>
-//         <div className='text-content'>
-//           <img
-//             src={blog.featuredImg}
-//             alt=''
-//             className='main-img w-[65%] mx-auto'
-//           />
-//           <h3 className='blog-heading text-6xl'>{blog.title}</h3>
-//           <p className='blog-content w-[65%] mx-auto'>{blog.fullContent}</p>
-//         </div>
-//       </div>
-//       <Footer />
-//     </>
-//   );
-// };
+const BlogPost = () => {
+  const { blogId } = useParams();
+  const blog = blogData.find((blog) => blog.id === parseInt(blogId));
 
-// export default BlogPost;
+  if (!blog) {
+    return <div>Blog post not found!</div>;
+  }
+  return (
+    <>
+      <Navbar />
+      <div className='blog-post'>
+        <img
+          src={blog.featuredImg}
+          alt=''
+          className='main-img md:w-[65%] mx-auto'
+        />
+        <div className='text-content w-[85%] md:w-[65%] mx-auto'>
+          <h3 className='blog-heading  text-base md:text-4xl'>{blog.title}</h3>
+          <div
+            className='blog-content '
+            dangerouslySetInnerHTML={{ __html: blog.fullContent }}
+          ></div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
+
+export default BlogPost;
