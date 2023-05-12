@@ -4,6 +4,7 @@ import LandingPage from './Pages/LandingPage';
 import OurExpertise from './Pages/OurExpertise';
 import ContactPage from './Pages/ContactPage';
 import BlogList from './Pages/BlogList';
+import TeamPage from './Pages/TeamPage';
 import BlogPost from './Components/Blog/BlogPost';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
         <Route path='/' element={<LandingPage />} />
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/expertise' element={<OurExpertise />} />
-        <Route path='/blogs' element={<BlogList />} />
+        <Route path='/blog' element={<BlogList />} />
+        <Route path='/teams' element={<TeamPage />} />
         <Route path='/blog/:blogId' element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
