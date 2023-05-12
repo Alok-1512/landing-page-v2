@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { GetHire, MenuImg } from '../../assets';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,9 +29,18 @@ const Navbar = () => {
               </div>
               <div className='ham-menu-items'>
                 <ul>
-                  <li>Courses</li>
-                  <li>Community</li>
-                  <li>Event</li>
+                  <Link to='/contact'>
+                    <li>Contact Us</li>
+                  </Link>
+                  <Link to='/about-us'>
+                    <li>About Us</li>
+                  </Link>
+                  <Link to='/blog'>
+                    <li>Blogs</li>
+                  </Link>
+                  <Link to='/teams'>
+                    <li>Our Team</li>
+                  </Link>
                 </ul>
               </div>
             </div>
