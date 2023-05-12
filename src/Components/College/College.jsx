@@ -1,5 +1,6 @@
 import React from 'react';
 import '../College/College.css';
+import { factory, mentor, training } from '../../assets';
 
 const College = () => {
   return (
@@ -10,16 +11,16 @@ const College = () => {
           As Interns or Freshers
         </h3>
         <div className='feature-row flex mx-auto w-[100%] md:w-[50%] gap-[25px] md:gap-[50px] items-center justify-center'>
-          <div className='feature-1 flex feature-box'>
-            <img src='' alt='' />
+          <div className='feature-1 flex feature-box items-center'>
+            <img src={factory} alt='' />
             <span>Industry Connects</span>
           </div>
-          <div className='feature-2 flex feature-box'>
-            <img src='' alt='' />
+          <div className='feature-2 flex feature-box items-center'>
+            <img src={mentor} alt='' />
             <span>Student Mentors</span>
           </div>
-          <div className='feature-3 flex feature-box'>
-            <img src='' alt='' />
+          <div className='feature-3 flex feature-box items-center'>
+            <img src={training} alt='' />
             <span>Student Training</span>
           </div>
         </div>

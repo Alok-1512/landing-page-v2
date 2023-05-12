@@ -1,6 +1,6 @@
 .feature-box {
     background-color: #efe16e80;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0.75rem;
     border-radius: 10px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -8,6 +8,17 @@
     font-size: 15px;
     line-height: 24px;
     text-align: center;
+    gap: 15px;
+}
+
+.feature-box img {
+    height: 30px;
+
+}
+
+.feature-box span {
+    margin: auto 0;
+
 }
 
 .heading-clg {

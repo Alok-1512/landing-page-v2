@@ -19,3 +19,9 @@
     font-size: 18px;
     padding: 0 1.25rem;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+        display: none;
+    }
+}

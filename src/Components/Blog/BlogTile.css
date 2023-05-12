@@ -1,0 +1,18 @@
+.blog-title h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    ;
+}
+
+.blog-heading {
+    /* font-size: 22px; */
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.blog-content {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

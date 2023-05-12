@@ -8,6 +8,13 @@ import Event from './Event.svg';
 import MenuImg from './Menu.svg';
 import AlokProfile from './AlokProfile.jpg';
 import linkedin from './linkedin.svg';
+import banner from './banner.avif'
+import tele from './TELE.svg'
+import training from './training.svg'
+import whatsapp from './whatsapp.svg'
+import factory from './factory.svg'
+import mentor from './mentor.svg'
+
 
 export {
     GetHire,
@@ -19,6 +26,11 @@ export {
     Event,
     MenuImg,
     AlokProfile,
-    linkedin
-
+    linkedin,
+    banner,
+    tele,
+    training,
+    mentor,
+    whatsapp,
+    factory
 }

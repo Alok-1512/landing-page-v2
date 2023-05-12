@@ -18,7 +18,10 @@ const FAQ = () => {
           <div className='support-social-cta'>
             <p>Talk to our support team:</p>
             <div className='support-social-icons'>
-              {/* Add telegram and Whatsapp */}
+              <a href=''>
+                <img src='' alt='' />
+                <img src='' alt='' />
+              </a>
             </div>
           </div>
 
