@@ -8,7 +8,7 @@ const JobPostingPage = () => {
         <div className='left-text-box space-y-5 w-[33%]'>
           <h2>Find the Best Suitable Career Opportunity</h2>
           <div className='download-cta flex w-[80%]'>
-            <span className='border-r-4 w-[35%] md:w-[25%]'>
+            <span className='border-r-4 w-[35%] md:w-[30%]'>
               {' '}
               Download The App{' '}
             </span>
@@ -34,7 +34,7 @@ const JobPostingPage = () => {
         <div className='left-text-box space-y-5 w-[33%]'>
           <h2>Find the Best Suitable Career Opportunity</h2>
           <div className='download-cta flex w-[80%]'>
-            <span className='border-r-4 w-[35%] md:w-[25%]'>
+            <span className='border-r-4 w-[35%] md:w-[30%]'>
               {' '}
               Download The App{' '}
             </span>
@@ -44,7 +44,7 @@ const JobPostingPage = () => {
             </div>
           </div>
         </div>
-        <div className='right-btn-box w-[33%] flex justify-center'>
+        <div className='right-btn-box w-[40%] flex justify-center'>
           <button className='dark'>Post Job Now </button>
         </div>
       </div>

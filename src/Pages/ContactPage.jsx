@@ -8,6 +8,9 @@ const ContactPage = () => {
   return (
     <>
       <Navbar />
+      <div className='page-banner'>
+        <h3 className='text-white'>Contact Us</h3>
+      </div>
       <ContactForm />
       <Footer />
     </>

@@ -6,6 +6,9 @@ const OurExpertise = () => {
   return (
     <>
       <Navbar />
+      <div className='page-banner'>
+        <h3 className='text-white'>Our Expertise</h3>
+      </div>
       <Expertise />
       <Footer />
     </>

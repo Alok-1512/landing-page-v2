@@ -1,19 +1,35 @@
 .blog-title h3 {
     font-size: 22px;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 1rem;
     ;
 }
 
 .blog-heading {
     /* font-size: 22px; */
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
     text-align: center;
+    margin-top: 1rem;
 }
 
+.meta-description {
+    margin-bottom: 1rem;
+}
+
+.read-more-btn {
+    color: #4f59b7;
+    /* background-color: #4f59b7; */
+    padding: 4px 10px;
+    font-size: 16px;
+    /* border-radius: 4px; */
+    font-weight: 600;
+}
+
+
+
 .blog-content {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 2rem;
 
 }

@@ -1,3 +1,5 @@
+import { tele } from '../../assets';
+import { whatsapp } from '../../assets';
 import { AppleStore, GetHire, PlayStore } from '../../assets';
 import './Footer.css';
 
@@ -20,8 +22,8 @@ const Footer = () => {
               Follow Us On Social Media
             </span>
             <div className='flex items-center justify-evenly w-[40%]'>
-              <img src={AppleStore} alt='' className='h-8' />
-              <img src={PlayStore} alt='' className='h-8' />
+              <img src={whatsapp} alt='' className='h-8' />
+              <img src={tele} alt='' className='h-8' />
             </div>
           </div>
         </div>
