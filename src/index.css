@@ -162,6 +162,8 @@ li {
     height: 41vh;
     align-items: center;
     display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
 }
 
