@@ -12,3 +12,29 @@
     background-color: #cccccc;
 
 }
+
+.download_button {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+.mob_footer {
+    background-color: #f7f7f7;
+}
+
+.mob_footer .ham-menu-items {
+    padding: 0 2rem;
+}
+
+.mob_footer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .mob_footer {
+        display: none;
+    }
+}
