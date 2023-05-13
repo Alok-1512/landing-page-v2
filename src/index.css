@@ -25,8 +25,8 @@ body {
 }
 
 .about-us-box {
-    margin-bottom: 10rem;
-    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-top: 2.5rem;
 }
 
 
@@ -92,7 +92,7 @@ li {
 }
 
 
-contact-details {
+.contact-details {
     display: flex;
     flex-direction: column;
 
@@ -158,7 +158,7 @@ contact-details {
 }
 
 .page-banner {
-    background-image: url(../../assets/about-banner.jpg);
+    background-image: url(../src/assets/about-banner.jpg);
     height: 41vh;
     align-items: center;
     display: flex;
@@ -179,6 +179,11 @@ contact-details {
     }
 
     .download-cta {
+        margin-top: 2rem;
+    }
+
+    .about-us-box {
+        margin-bottom: 2rem;
         margin-top: 2rem;
     }
 
