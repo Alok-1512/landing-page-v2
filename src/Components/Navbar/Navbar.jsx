@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { GetHire, MenuImg } from '../../assets';
 import { Link } from 'react-router-dom';
 
@@ -11,9 +11,11 @@ const Navbar = () => {
   return (
     <>
       <nav className='nav flex justify-between px-[5vw] py-4 items-center'>
-        <img src={GetHire} alt='' className='w-[160px]' />
-        <div className='menu-items'>
-          <button className='MenuImg' onClick={toggleMenu}>
+        <Link to='/'>
+          <img src={GetHire} alt='' className='w-[160px]' />
+        </Link>
+        <div className='menu-items flex justify-end w-[100%]'>
+          <button className='MenuImg w-[3%]' onClick={toggleMenu}>
             <img src={MenuImg} alt='' className='w-[30px]' />
           </button>
         </div>
@@ -23,23 +25,20 @@ const Navbar = () => {
           <div className='menu-content flex flex-col justify-between'>
             <div className='menu-top'>
               <div className='close-btn flex justify-end'>
-                <button className='MenuImg' onClick={toggleMenu}>
+                <button className='MenuImg w-[30%]' onClick={toggleMenu}>
                   <img src={MenuImg} alt='' className='w-[30px]' />
                 </button>
               </div>
               <div className='ham-menu-items'>
                 <ul>
-                  <Link to='/contact'>
-                    <li>Contact Us</li>
-                  </Link>
                   <Link to='/about-us'>
                     <li>About Us</li>
                   </Link>
                   <Link to='/blog'>
                     <li>Blogs</li>
                   </Link>
-                  <Link to='/teams'>
-                    <li>Our Team</li>
+                  <Link to='/contact'>
+                    <li>Contact Us</li>
                   </Link>
                 </ul>
               </div>

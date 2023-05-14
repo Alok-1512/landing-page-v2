@@ -1,3 +1,4 @@
+import { tele, whatsapp } from '../../assets';
 import './faq.css';
 import FAQs from './FAQs';
 
@@ -17,10 +18,12 @@ const FAQ = () => {
           </a>
           <div className='support-social-cta'>
             <p>Talk to our support team:</p>
-            <div className='support-social-icons'>
-              <a href=''>
-                <img src='' alt='' />
-                <img src='' alt='' />
+            <div className='support-social-icons flex gap-[15px] my-3'>
+              <a href='' className='h-[40px]'>
+                <img src={tele} alt='' className='h-[100%]' />
+              </a>
+              <a href='' className='h-[40px]'>
+                <img src={whatsapp} alt='' className='h-[100%]' />
               </a>
             </div>
           </div>

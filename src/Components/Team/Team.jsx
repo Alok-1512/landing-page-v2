@@ -4,9 +4,12 @@ import { linkedin } from '../../assets';
 const Team = () => {
   return (
     <>
+      <div className='text-center page-title'>
+        <h3>Our Team</h3>
+      </div>
       <div
         className='grid 
-        sm:grid-cols-2 md:grid-cols-3 grid-flow-row place-items-center p-5 lg:grid-cols-4  gap-12 max-w-7xl mx-auto '
+        sm:grid-cols-2 md:grid-cols-3 grid-flow-row place-items-center p-5 lg:grid-cols-4  gap-12 max-w-7xl mx-auto my-10 '
         style={{ gridAutoRows: '1fr' }}
         id='team-grid'
       >

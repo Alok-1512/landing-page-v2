@@ -4,22 +4,22 @@ const Hero = () => {
   return (
     <>
       <div className='flex items-center hero-container h-[80vh] justify-evenly'>
-        <div className='font-bold md:mx-40'>
-          <div className='hero-title md:text-4xl md:pb-10'>
+        <div className=' md:mx-40'>
+          <div className='hero-title md:text-4xl md:pb-4'>
             Welcome To GetHire!{' '}
           </div>
           <div>
-            <p className=' hero-subtitle md:text-6xl md:pb-10'>
+            <p className=' hero-subtitle font-semibold md:pb-4'>
               Lets Solve <p> Employment</p> As A Problem
             </p>
             <div className='download-cta flex'>
-              <span className='border-r-4 w-[35%] md:w-[25%]'>
+              <span className='border-r-4 w-[35%] md:w-[35%]'>
                 {' '}
                 Download The App
               </span>
               <div className='flex items-center justify-evenly w-[40%]'>
-                <img src={AppleStore} alt='' className='h-8' />
-                <img src={PlayStore} alt='' className='h-8' />
+                <img src={AppleStore} alt='' className='h-9' />
+                <img src={PlayStore} alt='' className='h-9' />
               </div>
             </div>
           </div>

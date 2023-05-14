@@ -20,19 +20,19 @@ const JobPostingPage = () => {
         </div>
         <div className='right-btn-box first'>
           <button>Internship</button>
-          <button>Internship</button>
-          <button>Internship</button>
+          <button>Freelance</button>
+          <button>Full Time</button>
           <button>Work From Home</button>
-          <button>Internship</button>
-          <button>Internship</button>
-          <button>Internship</button>
-          <button>Internship</button>
-          <button>Internship</button>
+          <button>On Site</button>
+          <button>Hybrid</button>
+          <button>Sales job</button>
+          <button>Marketing job</button>
+          <button>Tech job</button>
         </div>
       </div>
       <div className='find-cta flex justify-center items-center h-[50vh]'>
         <div className='left-text-box space-y-5 w-[33%]'>
-          <h2>Find the Best Suitable Career Opportunity</h2>
+          <h2>Find the Best Suitable Candidate</h2>
           <div className='download-cta flex w-[80%]'>
             <span className='border-r-4 w-[35%] md:w-[30%]'>
               {' '}

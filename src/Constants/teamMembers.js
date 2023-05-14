@@ -3,19 +3,19 @@ import { AlokProfile } from '../assets'
 const teamMembers = [
     {
         id: 1,
-        fullName: 'Alok Singh',
+        fullName: 'Mayur Potdar',
         profilePicture: AlokProfile,
         socialLink: "https://www.linkedin.com/in/aloksingh1512/"
     },
     {
         id: 2,
-        fullName: 'Alok Singh',
+        fullName: 'Aditya Sule',
         profilePicture: AlokProfile,
         socialLink: "https://www.linkedin.com/in/aloksingh1512/"
     },
     {
         id: 3,
-        fullName: 'Alok Singh',
+        fullName: 'Varun Singh',
         profilePicture: AlokProfile,
         socialLink: "https://www.linkedin.com/in/aloksingh1512/"
     },
@@ -27,13 +27,13 @@ const teamMembers = [
     },
     {
         id: 5,
-        fullName: 'Alok Singh',
+        fullName: 'Gaurav Thakur',
         profilePicture: AlokProfile,
         socialLink: "https://www.linkedin.com/in/aloksingh1512/"
     },
     {
         id: 6,
-        fullName: 'Alok Singh',
+        fullName: 'Attharva Gupta',
         profilePicture: AlokProfile,
         socialLink: "https://www.linkedin.com/in/aloksingh1512/"
     }

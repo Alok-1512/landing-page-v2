@@ -81,6 +81,7 @@ li {
     background-color: white;
     padding: 0.5rem 2rem;
     border-radius: 5px;
+    border: 1px solid #ccc;
 
 }
 
@@ -88,6 +89,7 @@ li {
     background-color: #f7f7f7;
     padding: 0.5rem 2rem;
     border-radius: 5px;
+    border: 1px solid #ccc;
 
 }
 
@@ -112,6 +114,7 @@ li {
 
 .contact-box {
     margin-top: 2.5rem;
+    width: 72%;
 
 }
 
@@ -121,8 +124,19 @@ li {
     margin-bottom: 1rem;
 }
 
+.hero-subtitle {
+    font-size: 46px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
 .contact-box ul li {
     list-style: disc;
+}
+
+.contact-box ul {
+    width: 81%;
+    margin: 0 auto;
 }
 
 .left-text-box {
@@ -172,12 +186,33 @@ li {
     font-weight: 600;
 }
 
+.page-title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
     .hero-container {
         flex-direction: column-reverse;
         height: 100%;
         gap: 1rem;
         margin-bottom: 10vh;
+    }
+
+    .contact-details h2 {
+        font-size: 23px;
+        margin-top: 1rem;
+    }
+
+    .contact-box ul li {
+        font-size: 14px;
+    }
+
+    .contact-box p {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 1rem;
     }
 
     .download-cta {
@@ -218,7 +253,9 @@ li {
     .hero-subtitle {
         font-size: 2.75rem;
         line-height: 50px;
+        font-weight: 600;
     }
+
 
     .right-btn-box.first {
         display: flex;

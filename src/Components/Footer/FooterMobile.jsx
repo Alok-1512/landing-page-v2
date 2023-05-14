@@ -1,4 +1,13 @@
-import { tele, whatsapp, linkedin, GetHire } from '../../assets';
+import {
+  tele,
+  whatsapp,
+  linkedin,
+  GetHire,
+  facebook,
+  twitter,
+  insta,
+  yt,
+} from '../../assets';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 
@@ -27,11 +36,11 @@ const FooterMobile = () => {
       <div>
         <p className='text-center my-2 items-center'>Follows Us:</p>
         <div className='icon-name flex justify-center gap-[10px]'>
-          <img src={tele} alt='' className='h-[35px]' />
-          <img src={whatsapp} alt='' className='h-[35px]' />
+          <img src={facebook} alt='' className='h-[35px]' />
+          <img src={twitter} alt='' className='h-[35px]' />
           <img src={linkedin} alt='' className='h-[35px]' />
-          <img src={linkedin} alt='' className='h-[35px]' />
-          <img src={linkedin} alt='' className='h-[35px]' />
+          <img src={insta} alt='' className='h-[35px]' />
+          <img src={yt} alt='' className='h-[35px]' />
         </div>
         <div className='flex justify-center'>
           <a href='' className='mx-auto'>

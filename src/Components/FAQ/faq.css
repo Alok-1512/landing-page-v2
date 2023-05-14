@@ -18,6 +18,7 @@
 .read-more {
     font-size: 18px;
     padding: 0 1.25rem;
+    color: #414bb2;
 }
 
 @media (max-width: 768px) {

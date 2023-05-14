@@ -14,6 +14,10 @@ import training from './training.svg'
 import whatsapp from './whatsapp.svg'
 import factory from './factory.svg'
 import mentor from './mentor.svg'
+import yt from './yt.svg'
+import facebook from './facebook.svg'
+import insta from './insta.svg'
+import twitter from './twitter.svg'
 
 
 export {
@@ -32,5 +36,9 @@ export {
     training,
     mentor,
     whatsapp,
-    factory
+    factory,
+    yt,
+    insta,
+    twitter,
+    facebook,
 }

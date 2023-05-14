@@ -1,6 +1,7 @@
 import React from 'react';
 import '../College/College.css';
 import { factory, mentor, training } from '../../assets';
+import { Link } from 'react-router-dom';
 
 const College = () => {
   return (
@@ -10,7 +11,7 @@ const College = () => {
           Get In Touch To Place Students <br />
           As Interns or Freshers
         </h3>
-        <div className='feature-row flex mx-auto w-[100%] md:w-[50%] gap-[25px] md:gap-[50px] items-center justify-center'>
+        <div className='feature-row flex mx-auto w-[100%] md:w-[55%] gap-[25px] md:gap-[50px] items-center justify-center'>
           <div className='feature-1 flex feature-box items-center'>
             <img src={factory} alt='' />
             <span>Industry Connects</span>
@@ -28,9 +29,9 @@ const College = () => {
           Customised services as per institutional requirement to meet
           industrial <br /> training, projects, internship and placement needs.
         </p>
-        <a href=''>
+        <Link to='/contact'>
           <button className='contact-cta'> Contact Us </button>
-        </a>
+        </Link>
       </div>
     </>
   );

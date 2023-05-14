@@ -1,20 +1,24 @@
 .about-us-box>p {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .slogan-container {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 4rem;
 }
 
 .slogan-box h5 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .slogan-box p {
     font-size: 18px;
+}
+
+.slogan-box {
+    padding: 10px;
 }
