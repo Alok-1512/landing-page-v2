@@ -33,13 +33,13 @@ const ContactForm = () => {
               <strong>Sales and Business:</strong> sales@gethire.in
             </li>
             <li>
-              <strong>Sales and Business:</strong> sales@gethire.in
+              <strong>Need Assistance:</strong> help@gethire.in
             </li>
             <li>
-              <strong>Sales and Business:</strong> sales@gethire.in
+              <strong>Join our team:</strong> career@gethire.in
             </li>
             <li>
-              <strong>Sales and Business:</strong> sales@gethire.in
+              <strong>For any other query:</strong> contact@gethire.in
             </li>
           </ul>
         </div>
