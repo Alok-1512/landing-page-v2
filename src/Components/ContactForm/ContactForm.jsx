@@ -20,7 +20,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className='form-container flex mx-5  flex-col md:flex-row md:h-[80vh] my-10'>
+    <div className='form-container flex mx-5  flex-col md:flex-row md:h-[95vh] my-10'>
       <div className='contact-details flex flex-col items-center basis-2/5 px-[20px] py-[10px] dark '>
         <h2>
           Let&apos;s Solve Employment <br />
