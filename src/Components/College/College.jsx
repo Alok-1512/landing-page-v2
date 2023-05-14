@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const College = () => {
   return (
     <>
-      <div className='main-container px-10 h-[80vh] flex justify-evenly items-center flex-col'>
+      <div className='main-container px-10 md:h-[80vh] flex justify-evenly items-center flex-col py-10 md:py-0'>
         <h3 className='heading-clg'>
           Get In Touch To Place Students <br />
           As Interns or Freshers
