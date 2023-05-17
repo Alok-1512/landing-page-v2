@@ -9,7 +9,7 @@ const AboutUs = () => {
     <>
       <Navbar />
       <About />
-      <Team />
+      {/* <Team /> */}
       <Expertise />
       <Footer />
     </>

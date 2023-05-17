@@ -15,7 +15,7 @@ const Navbar = () => {
           <img src={GetHire} alt='' className='w-[160px]' />
         </Link>
         <div className='menu-items flex justify-end w-[100%]'>
-          <button className='MenuImg w-[3%]' onClick={toggleMenu}>
+          <button className='MenuImg w-[10%] md:w-[5%] ' onClick={toggleMenu}>
             <img src={MenuImg} alt='' className='w-[30px]' />
           </button>
         </div>

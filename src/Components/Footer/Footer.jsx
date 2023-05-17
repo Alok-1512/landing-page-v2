@@ -60,22 +60,20 @@ const Footer = () => {
               <Link to='/about-us'>
                 <li>Our Team</li>
               </Link>
-
               <li>Career</li>
-              <li>News</li>
-              <li>Media Kit</li>
               <Link to='/contact'>
                 <li>Contact</li>
               </Link>
-              <li>Site Map</li>
             </ul>
           </div>
           <div className='footer-links'>
             <p>Services:</p>
             <ul>
-              <li>Recruiter</li>
-              <li>Talent</li>
-              <li>Colleges</li>
+              <li>Consulting</li>
+              <li>Recruit</li>
+              <li>Market</li>
+              <li>Learn</li>
+              <li>Community</li>
             </ul>
           </div>
           <div className='footer-links'>
@@ -89,9 +87,8 @@ const Footer = () => {
           <div className='footer-links'>
             <p>Resources:</p>
             <ul>
-              <li>Post Job</li>
-              <li>Search Job</li>
-              <li>Consulting</li>
+              <li>Blog</li>
+              <li>FAQ</li>
             </ul>
           </div>
           <div className='footer-links'>
@@ -99,10 +96,6 @@ const Footer = () => {
             <ul>
               <li>T&C</li>
               <li>Privacy</li>
-              <li>Users</li>
-              <li>Greivances</li>
-              <li>Cookies</li>
-              <li>Data</li>
               <li>Refund</li>
             </ul>
           </div>

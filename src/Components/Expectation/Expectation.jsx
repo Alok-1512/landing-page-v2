@@ -4,7 +4,7 @@ import './Expectation.css';
 const Expectation = () => {
   return (
     <div className='expect-section flex justify-evenly items-center my-[10vh]'>
-      <div className='feature-col text-left w-[100%] '>
+      <div className='feature-col text-left w-[100%] md:w-[29%]'>
         <h3 className='w-[75%] mx-auto'>What One Can Expect From GetHire</h3>
         <div className='redirect-btn-col flex flex-col justify-center items-center gap-1 '>
           <a href=''>
