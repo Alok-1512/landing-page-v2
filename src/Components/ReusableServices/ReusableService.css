@@ -1,0 +1,33 @@
+.overlay-box {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    background-color: black;
+    opacity: 0.75;
+    padding: 2.5rem 2rem;
+    height: 100%;
+}
+
+.service-headline {
+    font-size: 26px;
+    margin-top: 1.5rem;
+}
+
+.service-btn {
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .overlay-box {
+        width: 100%;
+    }
+
+    .service-headline {
+        font-size: 24px;
+        margin-top: 1.5rem;
+    }
+}

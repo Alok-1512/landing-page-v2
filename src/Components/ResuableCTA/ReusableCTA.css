@@ -1,0 +1,36 @@
+.step-card p {
+    color: blue;
+    font-size: 20px;
+}
+
+.cta-section>a>button {
+    border: 1px solid #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+}
+
+.cta-title {
+    font-size: 36px;
+    color: #153FA7;
+}
+
+.cta-description {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .cta-description {
+        font-size: 16px;
+        padding: 0 2.25rem;
+    }
+
+    .cta-title {
+        font-size: 32px;
+        color: #153FA7;
+    }
+
+    .step-card {
+        margin-bottom: 2.5rem;
+    }
+
+}

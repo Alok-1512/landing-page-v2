@@ -1,0 +1,43 @@
+.info-btn {
+    background-color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.grey-section h3 {
+    font-size: 31px;
+    color: #535cba;
+}
+
+.int-description {
+    font-size: 19px;
+}
+
+.grey-section {
+    background-color: #e4e4e4;
+}
+
+.right-section p {
+    color: #535cba;
+    font-size: 21px;
+}
+
+@media (max-width: 768px) {
+    .right-section {
+        display: none;
+    }
+
+    .grey-section {
+        flex-basis: unset !important;
+    }
+
+    .grey-section h3 {
+        font-size: 24px;
+        color: #535cba;
+    }
+
+    .int-description {
+        font-size: 16px;
+    }
+}

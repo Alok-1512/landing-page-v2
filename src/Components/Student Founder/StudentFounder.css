@@ -1,0 +1,57 @@
+.feature-box {
+    background-color: #efe16e80;
+    padding: 1rem 0.75rem;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    gap: 15px;
+}
+
+.feature-box img {
+    height: 30px;
+
+}
+
+.feature-box span {
+    margin: auto 0;
+
+}
+
+.heading-clg {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+}
+
+.clg-description {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+}
+
+.contact-cta {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 1rem 2rem;
+    border: 1px solid #ded9d9;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-container {
+    background-color: #f7f7f7;
+}

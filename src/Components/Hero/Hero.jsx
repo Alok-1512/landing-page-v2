@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <div className='flex items-center hero-container h-[80vh] justify-evenly'>
-        <div className=' md:mx-40'>
+        <div className='text-wrapper'>
           <div className='hero-title md:text-4xl md:pb-4'>
             Welcome To GetHire!{' '}
           </div>

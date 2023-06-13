@@ -18,7 +18,16 @@ import yt from './yt.svg'
 import facebook from './facebook.svg'
 import insta from './insta.svg'
 import twitter from './twitter.svg'
-
+import EmployerHero from './GetHire Find Right Candidates.svg'
+import CreateProfile from './Gethire Create profile to find right fit.svg'
+import shareJob from './Gethire share job post.svg'
+import hireCandidate from './Gethire meet right candidate.svg'
+import checkmark from './checkmark.png'
+import collegelogo from './college-logo.svg'
+import brandlogo from './brand-logo.svg'
+import jobseekerlogo from './jobseekerlogo.svg'
+import employerlogo from './employerlogo.svg'
+import JobSeekerService from './JobSeeker Service.jpg'
 
 export {
     GetHire,
@@ -41,4 +50,15 @@ export {
     insta,
     twitter,
     facebook,
+    EmployerHero,
+    CreateProfile,
+    shareJob,
+    hireCandidate,
+    checkmark,
+    JobSeekerService,
+    collegelogo,
+    brandlogo,
+    employerlogo,
+    jobseekerlogo
+
 }

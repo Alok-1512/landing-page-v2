@@ -1,0 +1,50 @@
+.price-card {
+    border: 1px solid #363636;
+    padding: 3rem 1.5rem;
+    border-radius: 10px;
+
+}
+
+.card-name {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.price-card-description {
+    font-size: 15px;
+    min-height: 45px;
+}
+
+.pricing {
+    margin-top: 2.5rem;
+}
+
+.price-amt {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.plan-duration {
+    font-size: 15px;
+}
+
+.feature-line:last-child {
+    display: none;
+}
+
+.pricing-page-title {
+    font-size: 36px;
+}
+
+@media (max-width: 768px) {
+    .price-card {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .pricing-page-title {
+        font-size: 22px;
+    }
+
+}
