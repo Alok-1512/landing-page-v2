@@ -1,4 +1,4 @@
-import { CreateProfile, EmployerHero, hireCandidate, shareJob, JobSeekerService } from "../assets"
+import { CreateProfile, JobSeekerService, JobHero, signUp, findOpportunity } from "../assets"
 
 export const JobSeekerPageData = {
     heroSection: {
@@ -6,7 +6,7 @@ export const JobSeekerPageData = {
         heading: 'Find Job With AI Search Engine',
         cta_label: 'Talk to sales',
         cta_link: '',
-        hero_img: EmployerHero,
+        hero_img: JobHero,
         hero_alt: ''
     },
     ctaSection: {
@@ -15,21 +15,21 @@ export const JobSeekerPageData = {
         steps: [
             {
                 number: 'Step 1',
-                step_img: CreateProfile,
+                step_img: signUp,
                 step_alt: 'Gethire: Create profile to find right fit',
                 step_cta: 'Sign Up',
                 step_cta_link: ''
             },
             {
                 number: 'Step 2',
-                step_img: shareJob,
+                step_img: CreateProfile,
                 step_alt: 'Gethire: share job post',
                 step_cta: 'Create Profile',
                 step_cta_link: ''
             },
             {
                 number: 'Step 3',
-                step_img: hireCandidate,
+                step_img: findOpportunity,
                 step_alt: 'Gethire: meet right candidate',
                 step_cta: 'Find Best Opportunity',
                 step_cta_link: ''

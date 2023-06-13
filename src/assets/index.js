@@ -28,9 +28,17 @@ import brandlogo from './brand-logo.svg'
 import jobseekerlogo from './jobseekerlogo.svg'
 import employerlogo from './employerlogo.svg'
 import JobSeekerService from './JobSeeker Service.jpg'
+import JobHero from './jobhero.svg'
+import BrandHero from './Gethire Supporting founders in their startup journey to scale.svg'
+import signUp from './Gethire Signup to start journey.svg'
+import findOpportunity from './Gethire find best opportunity.svg'
 
 export {
     GetHire,
+    BrandHero,
+    findOpportunity ,
+    JobHero ,
+    signUp ,
     HeroImg,
     PlayStore,
     AppleStore,

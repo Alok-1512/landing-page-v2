@@ -41,7 +41,7 @@ const Navbar = () => {
             </button>
           </Link>
           <Link to='/employer'>
-            <button className=' MenuImg p-1  '>
+            <button className=' MenuImg p-1 '>
               <img src={employerlogo} alt='' className='w-[20px] mx-auto' />
               <span className='text-xs'>Employer</span>
             </button>

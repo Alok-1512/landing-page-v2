@@ -1,4 +1,4 @@
-import { CreateProfile, EmployerHero, hireCandidate, shareJob, JobSeekerService } from "../assets"
+import { CreateProfile,  hireCandidate, shareJob, JobSeekerService, BrandHero } from "../assets"
 
 export const BrandPageData = {
     heroSection: {
@@ -6,7 +6,7 @@ export const BrandPageData = {
         heading: 'Lets Promote Your Product And Services',
         cta_label: 'Talk to sales',
         cta_link: '',
-        hero_img: EmployerHero,
+        hero_img: BrandHero,
         hero_alt: ''
     },
     ctaSection: {
